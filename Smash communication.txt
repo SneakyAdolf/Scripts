@@ -1,0 +1,10 @@
+if (cursortarget getVariable["life_knockout"]) then {
+ player addaction["take this niggas stuff (comms)", {
+  cursortarget setVariable["bat_life_var", 0];
+  if (cursortarget hasWeapon "tfar_radio_config") then {
+   cursortarget removeWeapon "tfar_radio_config";
+   addchit = createVehicle ["groundweaponHolder",Position player,[], 0, "can_collide"];
+   addchit addItemCargo ["tfar radios config name", 1];
+  };
+ }];
+};

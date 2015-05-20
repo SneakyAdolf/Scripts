@@ -1,0 +1,13 @@
+if ((life_inv_ziptie != 0) && ((cursortarget distance _x) < 5)) then {
+ player addaction["Restrain the nigga", { 
+  cursortarget setVariable["restrainedZIP",false,true];
+  life_inv_ziptie = life_inv_ziptie - 1;
+ }];
+};
+
+if ((life_inv_scizzors != 0) && ((player distance _x) < 5) && ((cursortarget getVariable["restrained",false]))) then {
+ player addaction["Unrestrain the nigga", { 
+  cursortarget setVariable["restrainedZIP",false,false];
+  life_inv_scizzors = life_inv_scizzors - 1;
+ }];
+};
