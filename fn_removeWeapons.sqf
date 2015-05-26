@@ -11,7 +11,7 @@
 */
 private["_cop","_legal","_handgun"];
 _cop = [_this,0,Objnull,[objNull]] call BIS_fnc_param;
-_legal = ["RH_cz75","RH_gsh18","RH_m9c","RH_sw659","RH_mak"];
+_legal = ["RH_cz75","RH_gsh18"];
 _magWeapIll = [
                 "RH_g18",
 				"30Rnd_65x39_caseless_mag","30Rnd_556x45_Stanag","10Rnd_762x51_Mag","30Rnd_65x39_caseless_green","20Rnd_556x45_UW_mag","30Rnd_65x39_caseless_mag_Tracer","30Rnd_45ACP_Mag_SMG_01","20Rnd_762x51_Mag"];
