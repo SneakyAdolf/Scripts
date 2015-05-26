@@ -14,30 +14,6 @@ _cop = [_this,0,Objnull,[objNull]] call BIS_fnc_param;
 _legal = ["RH_cz75","RH_gsh18","RH_m9c","RH_sw659","RH_mak"];
 _magWeapIll = [
                 "RH_g18",
-                "RH_33Rnd_9x19_g18",
-                "RH_tec9",              
-                "RH_32Rnd_9x19_tec",       
-                "RH_muzi",              
-                "RH_30Rnd_9x19_UZI",
-				"RH_ar10",
-				"RH_20Rnd_762x51_AR10",
-				"RH_m16a3",
-				"RH_m16a4",
-				"30rnd_556x45_STANAG",
-				"30Rnd_556x45_Stanag_Tracer_Red",
-				"RH_mk12mod1",
-				"RH_compM4s",
-				"RH_eotech533",
-				"RH_shortdot",
-				"RH_reflex",
-				"RH_usp",
-				"RH_m1911",
-				"RH_kimber",
-				"RH_deagle",
-				"RH_deagleg",
-				"RH_deaglem",
-				"RH_muzi",
-				"RH_tec9",
 				"30Rnd_65x39_caseless_mag","30Rnd_556x45_Stanag","10Rnd_762x51_Mag","30Rnd_65x39_caseless_green","20Rnd_556x45_UW_mag","30Rnd_65x39_caseless_mag_Tracer","30Rnd_45ACP_Mag_SMG_01","20Rnd_762x51_Mag"];
 
 _magArr = magazines player;
